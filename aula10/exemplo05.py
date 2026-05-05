@@ -7,7 +7,8 @@ try:
 
     media_por_funcionario = total_produzido / funcionarios
 
-    
+#  impletemta Exception (Classe geral que engloba todos os erros, genéricos)
+
 except Exception as e:
     print(f'Ops! Erro nos valores de entrada. {e}')
 except KeyboardInterrupt:
